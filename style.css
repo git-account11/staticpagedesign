@@ -1,0 +1,207 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Poiret One", sans-serif; */
+    /* font-family: "Great Vibes", cursive; */
+}
+
+.main-container
+{
+    width: 100%;
+    position: relative;
+    
+}
+
+/* navbar */
+
+header
+{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+#logo
+{
+    color: rgb(247, 244, 240);
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#logo span
+{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* home-section */
+
+#home
+{
+    width: 100%;
+    height: 48.5rem;
+    background-image: url(https://img.freepik.com/free-photo/fresh-coffee-steams-wooden-table-close-up-generative-ai_188544-8923.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 10% 20%;
+}
+
+.home-div
+{
+    padding-left: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home h1
+{
+    color: white;
+    font-size: 6rem;
+    text-align: end;
+    font-weight: 600;
+    text-wrap: nowrap;
+}
+
+#h1-2, #h1-4
+{
+    font-family: "Great Vibes",cursive;
+}
+
+#home button
+{
+    align-content: center;
+}
+
+#modal-submit-button
+{
+    background-color: blueviolet;
+}
+
+/* Cafe package section */
+
+#Cafe .card
+{
+    border-width: 0.5px;
+    border-color: rgba(215, 214, 212, 0.43);
+}
+
+#Cafe .card:hover
+{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.129), 0 3px 6px rgba(0, 0, 0, 0.253);
+}
+
+#Cafe h1
+{
+    text-align: center;
+    padding: 5% 0px 2% 0px;
+    font-weight: 600;
+}
+
+#Cafe img
+{
+    object-fit: cover;
+    height: 15rem;
+    border-radius: 10px;
+}
+
+#Cafe h4, #Cafe h6
+{
+    font-weight: 700;
+}
+
+#Cafe p
+{
+    text-align: justify;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+
+footer
+{
+    background-color:darkorange;
+    padding: 2% 10%;
+}
+
+.footer-main
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-div li
+{
+    list-style: none;
+}
+
+.footer-div .main-link
+{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.footer-div .footer-link
+{
+    color: rgba(255, 255, 255, 0.773);
+    text-decoration: none;
+    line-height:2rem;
+}
+.footer-div .link2
+{
+    text-align: center;
+}
+
+.footer-div i
+{
+    color: rgba(255, 255, 255, 0.773);
+    font-size: 2.2rem;
+    padding: 1rem;
+}
+
+.footer-div h6
+{
+    color: rgba(255, 255, 255, 0.773);
+    text-align: center;
+}
+
+.footer-sub
+{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.773);
+}
+
+
+@media (max-width:1180px)
+{
+    .home-div
+    {
+        padding: 10% 0px;
+    }
+    #home h1
+    {
+        text-align: center;
+        text-wrap: nowrap;
+    }
+}
+
